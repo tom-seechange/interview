@@ -32,8 +32,8 @@ A simple pipeline (e.g. Github actions) which:
   1. Creates a docker image for the application
   1. Publishes the docker image into a repository (of your choice)
   1. Uses IAC (of your own choosing) to deploy the following into Azure:
-    1. a postgres database for use by the application
-    1. the application (from your docker image)
+      1. a postgres database for use by the application
+      1. the application (from your docker image)
   
   No bells and whistles, keep it simple.
 
